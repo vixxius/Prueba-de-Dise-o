@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    padding:20px;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+    padding:0;
+}
+
+.superior{
+    display: flex;
+    padding: 20px 30px 20px 30px;
+    width:auto;
+    height:140px;
+    background-color:rgb(41, 43, 46);
+}
+
+.Redes{
+    width: 550px;
+    height: 100px;
+    padding: 0;
+    display:flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 650px;
+}
+
+.logo{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+.ig{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+.github{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+.steam{
+    height:100px;
+    width:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+
+section{
+    background-color:rgb(220, 225, 235);
+    height: 800px;
+    width:auto;
+    position:relative;
+}
+
+.barra{
+    width: auto;
+    height: 60px;
+    background-color: red;
+    padding:1px;
+}
+
+nav{
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+nav a{
+    height: 30px;
+    margin: 1px solid black;
+    border: 1px black;
+    border-radius: 20%;
+    background-color:indianred;
+}
+
+footer{
+    display: flex;
+    padding:0px;
+    width:auto;
+    height:100px;
+    background-color:rgb(41, 43, 46);
+    justify-content:center;
+    align-items: center;
+}
+
+article{
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: flex;
+    float: left;
+    max-width: 300px;
+    background-color: coral;
+}
+
+.titular1{
+    background-color: rgb(190, 58, 58);
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.lateral{
+    width:250px;
+    height: 500px;
+    background-color: purple;
+    float:left;
+}
+
+.titular2{
+    background-color: rgb(190, 58, 58);
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.textoprincipal{
+    width:800px;
+    height:700px;
+    background-color: purple;
+    float: right;
+}
